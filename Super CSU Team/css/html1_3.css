@@ -1,0 +1,86 @@
+	/*@import url(html3.css);*/
+	*
+	{
+		margin: 0px;
+		padding:0px;
+	}
+	.Con
+	{
+		width: 100%;
+		height: 613px;
+		border: 1px solid #999;
+		margin:auto;
+	}
+	.main
+	{
+		/* width: 1300px; */
+		height: 573px;
+		background: #eee;
+		border: 1px solid #999;
+		margin:20px;
+	}
+	.mainLeft
+	{
+		width: 200px;
+		height: 120px;
+		background:#fff;
+		border: 1px  solid #999;
+		margin:20px 10px 0px 20px;
+		float: left;
+		/*position: relative;*/
+	}
+	.mLL
+	{
+		width: 80px;
+		height: 80px;
+		background: #eee;
+		border: 1px solid #999;
+		margin: 20px 0px 0px 20px;
+		float: left;
+	}
+	.mLR
+	{
+		width: 70px;
+		height: 60px;
+		border: 0px solid red;
+		margin: 20px 10px 0px 10px;
+		float: left;
+		font-size: 15px;
+		font-family: "微软雅黑";
+	}
+	.mainCenter
+	{
+		width: 650px;
+		height: 500px;
+		background:#fff;
+		border: 1px  solid #999;
+		margin: 20px 10px 0px 10px;
+		padding:20px;
+		float: left;
+		/*position: absolute;*/
+	}
+	.mainCenter p
+	{
+		font-size: 18px;
+		/*font-weight: bold;*/
+		font-family: "SimSun";
+	}
+	.mainRight
+	{
+		width: 120px;
+		height: 530px;
+		background:#fff;
+		border: 1px solid #999;
+		margin:20px 20px 0px 10px;
+		float: right;
+		/*position: relative;*/
+	}
+	.chen,.zhou,.wang,.zhao,.wu
+	{
+		width: 80px;
+		height: 80px;
+		background: #eee;
+		border: 1px solid #999;
+		margin:20px;
+
+	}

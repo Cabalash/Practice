@@ -1,0 +1,68 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+}
+ul
+{
+	margin: 0px;
+	padding: 0px;
+}
+li
+{
+	list-style: none;
+}
+.flex-container
+{
+	/*flex布局（作用于容器）*/
+	display: flex;
+
+	/*两端对齐（作用于容器）*/
+	justify-content:space-around;
+	/*侧轴方向对齐方式（作用于容器）*/
+	align-items: flex-end;
+	/*换行（作用于容器）*/
+	flex-wrap: wrap;
+}
+.flex-item1
+{
+	width: 150px;
+	height: 120px;
+	border: 1px solid #f00;
+	padding: 20px;
+}
+.flex-item2
+{
+	width: 150px;
+	height: 100px;
+	border: 1px solid #f00;
+	padding: 20px;
+}
+.flex-item3
+{
+	width: 150px;
+	height: 40px;
+	border: 1px solid #f00;
+	padding: 20px;
+}
+.flex-item4
+{
+	width: 150px;
+	height: 200px;
+	border: 1px solid #00f;
+	padding: 20px;
+}
+@media screen and (max-width:640px) {
+/*	.flex-container
+	{
+		flex-flow:row wrap;
+	}
+	li
+	{
+		margin:0px;
+	}*/
+	.flex-item4
+	{
+		order:-1;
+	}
+}

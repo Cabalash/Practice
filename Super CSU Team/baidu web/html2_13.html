@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
+<head>
+<title>任务十三：零基础JavaScript编码（一）</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="布尔教育 http://www.itbool.com" />
+</head>
+    <body>
+    	<input type="text" placeholder="请输入内容" id="words">
+    	<input type="button" value="提交" onClick="clickMe(event)">
+    	<!-- // <script type="text/javascript" src="../js/jquery-1.4.4.js"></script> -->
+    	<script type="text/javascript">
+    		//给button设置一个点击事件
+    		function clickMe(event){
+    			//获取输入框的值
+    			var a = document.getElementById("words").value;
+    			//对话框中显示输入框的值
+    			alert("您输入的值是："+a);
+    		}
+    	</script>    	
+    </body>
+</html>

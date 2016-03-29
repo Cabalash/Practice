@@ -1,0 +1,130 @@
+th
+{
+	background: #000;
+	font-size: 14px;
+	color: #fff;
+	font-family: "微软雅黑";
+}
+tr:nth-child(2n)
+{
+	background: #fffeff;
+	font-size: 16px;
+	color: #000;
+	font-family: "微软雅黑";
+	font-weight: bolder;
+}
+tr:nth-child(2n+1)
+{
+	background: #cdcdcd;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+}
+.clickt:focus
+{
+	width:200px;
+	border:1px solid #7dafea;
+}
+.box
+{
+	width: 280px;
+	height: 11px;
+}
+.box1
+{
+	width: 280px;
+	height: 110px;
+	background: #008100;
+	position:relative;
+}
+.box1 ul
+{
+	list-style: none;
+	position: absolute;right:0px;bottom:0px;
+}
+.box1 ul li
+{
+	width: 20px;
+	height: 30px;
+	background: #7ac279;
+	color: #fff;
+	font-weight: bold;
+	line-height: 30px;
+	margin-left: 2px;
+	padding-left: 10px;
+	float: left;
+}
+.box1 li:nth-child(1)
+{
+	background: #f00;
+}
+.box1 li:nth-child(2)
+{
+	background: #0f0;
+}
+.box1 li:nth-child(3)
+{
+	background: #00f;
+}
+/*.box2
+{
+	width: 280px;
+	height: 110px;
+	position:relative;
+}
+.box2_1
+{
+	width: 140px;
+	height: 110px;
+	background: #0100fe;
+	float: left;
+}
+.box2_2
+{
+	width: 140px;
+	height: 110px;
+	background: #008100;
+	float: left;
+}
+.box2_2 ul
+{
+	list-style: none;
+	position: absolute;right:0px;bottom:0px;
+}
+.box2_2 ul li
+{
+	width: 20px;
+	height: 30px;
+	background: #7ac279;
+	color: #fff;
+	font-weight: bold;
+	line-height: 30px;
+	margin-left: 2px;
+	padding-left: 10px;
+	float: left;
+}
+.box3
+{
+	width: 280px;
+	height: 110px;
+	background: #0100fe;
+	position: relative;
+}
+.box3 ul
+{
+	list-style: none;
+	position: absolute;right:0px;bottom:0px;
+}
+.box3 ul li
+{
+	width: 20px;
+	height: 30px;
+	background: #7ac279;
+	color: #fff;
+	font-weight: bold;
+	line-height: 30px;
+	margin-left: 2px;
+	padding-left: 10px;
+	float: left;
+}
+*/

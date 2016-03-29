@@ -1,0 +1,146 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+.header{
+	width: 100%;
+	height: 115px;
+	background: #91d4da;
+}
+a{
+	text-decoration: none;
+}
+/*.icon_ack{
+	width: 35px;
+	height: 60px;
+	background: #fff;
+}*/
+.back_word{
+	color: #fff;
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 115px;
+	position: absolute;left: 5%;
+}
+.title{
+	color: #fff;
+	font-size: 50px;
+	font-weight: bold;
+	line-height: 115px;
+	position: absolute;left:40%;
+}
+nav{
+	width: 100%;
+	height: 115px;
+	background: #fff;
+	margin-left: 10%;
+}
+.item{
+	width: 20%;
+	height: 120px;
+	font-size: 40px;
+	color: #656565;
+	line-height: 120px;
+	font-weight: bold;
+	float: left;
+}
+.banner{
+	width: 100%;
+	height:680px;
+	border: 0px solid red;
+}
+.top{
+	width: 90%;
+	height: 300px;
+	border-bottom: 3px solid #cccccc;
+
+}
+.top_item{
+	width: 15%;
+	height: 300px;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 70px;
+	margin-left: 50px;
+	text-align: center;
+	float: left;
+}
+.bottom_item{
+	width: 445px;
+	height: 300px;
+	border-right: 2px solid #cccccc;
+	list-style: none;
+	text-align: center;
+	float: left;
+}
+.mod{
+	width: 100%;
+	height: 640px;
+	border: 0px solid red;
+}
+.mod h2{
+	width: 90%;
+	height: 120px;
+	line-height: 120px;
+	margin-left: 70px;
+	border-bottom: 2px solid #ccc;
+}
+.mod_item{
+	width: 90%;
+	height: 225px;
+	border: 0px solid red;
+	margin: auto;
+}
+.mod_item_img{
+	float: left;
+}
+.mod_item_col span{ 
+	width: 320px;
+	height: 100px;
+	background: #f8f8f8;
+	float: left;
+	font-size: 35px;
+	color:#000;
+	font-family: "SimHei";
+	text-align: center;
+	line-height: 100px;
+	margin: 0px 20px 10px 20px;
+}
+.article{
+	width: 100%;
+	height: 780px;
+	border: 0px solid red;
+}
+.article_item_col{
+	width: 90%;
+	height: 210px;
+	border: 0px solid red;
+	border-bottom: 2px solid #ccc;
+	margin: 20px auto;
+}
+.article_item_col_img{
+	float: left;
+}
+.article_item_col_content{
+	float: left;
+}
+h3{
+	font-size: 20px;
+}
+.article_item_col2{
+	width: 90%;
+	height: 250px;
+	border: 0px solid red;
+	margin: 20px auto 0px;
+}
+.imgs{
+	float: left;
+}
+.time{
+	width: 90%;
+	height: 20px;
+	border: 0px solid red;
+	line-height: 20px;
+	margin: auto;
+}
+

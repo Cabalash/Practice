@@ -1,0 +1,51 @@
+/*@import url(html1_7.css);*/
+	*
+	{
+		margin:0px;
+		padding: 0px;
+	}
+	.Con
+	{
+		width: 100%;
+		height: 5000px;
+		border:1px solid #000000;
+		background: #cccccc;
+	}
+	.header
+	{
+		width: 100%;
+		height: 60px;
+		border: 1px solid red;
+		background: #ffffff;
+	}
+	.header .header_l
+	{
+		width: 110px;
+		height: 35px;
+		border: 1px solid red;
+		line-height: 35px;
+		font-size: 20px;
+		color: #000000;
+		font-family: "SimHei";
+		margin:12px 0px 0px 50px;
+		float: left;
+	}
+	.header .header_r	
+	{
+		width: 570px;
+		height: 30px;
+		border: 1px solid red;
+		float: left;
+		margin:20px 0px 0px 550px;
+	}
+	.header .header_r ul li
+	{
+		list-style: none;
+		float: left;
+		padding-right: 40px;
+		font-size: 14px;
+		color: #919193;
+		font-family: "SimHei";
+		font-weight: bold;
+		line-height: 30px;
+	}
